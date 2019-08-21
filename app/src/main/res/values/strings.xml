@@ -21,4 +21,5 @@
     <string name="license_textView1">License</string>
     <string name="back_button1">Back</string>
     <string name="delete_button4">Delete</string>
+    <string name="license_edit">Emty</string>
 </resources>
