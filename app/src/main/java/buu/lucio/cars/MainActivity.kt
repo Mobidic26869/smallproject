@@ -47,7 +47,7 @@ class MainActivity : AppCompatActivity() {
         nameEditText.visibility = View.GONE
         brandEditText.visibility = View.GONE
         licenseEditText.visibility = View.GONE
-        emtyBtn1.text = nameEditText.text
+        emtyBtn1.text = licenseEditText.text
         submitBtn.visibility = View.GONE
         deleteBtn.visibility = View.GONE
 
@@ -68,7 +68,7 @@ class MainActivity : AppCompatActivity() {
         nameEditText2.visibility = View.GONE
         brandEditText2.visibility = View.GONE
         licenseEditText2.visibility = View.GONE
-        emtyBtn2.text = nameEditText2.text
+        emtyBtn2.text = licenseEditText2.text
 
         submitBtn2.visibility = View.GONE
         deleteBtn2.visibility = View.GONE
@@ -88,7 +88,7 @@ class MainActivity : AppCompatActivity() {
         nameEditText3.visibility = View.GONE
         brandEditText3.visibility = View.GONE
         licenseEditText3.visibility = View.GONE
-        emtyBtn3.text = nameEditText3.text
+        emtyBtn3.text = licenseEditText3.text
 
         submitBtn3.visibility = View.GONE
         deleteBtn3.visibility = View.GONE
@@ -110,7 +110,7 @@ class MainActivity : AppCompatActivity() {
         nameEditText.visibility = View.VISIBLE
         brandEditText.visibility = View.VISIBLE
         licenseEditText.visibility = View.VISIBLE
-        emtyBtn1.text = nameEditText.text
+        emtyBtn1.text = licenseEditText.text
         submitBtn.visibility = View.VISIBLE
         deleteBtn.visibility = View.VISIBLE
 
@@ -131,7 +131,7 @@ class MainActivity : AppCompatActivity() {
         nameEditText2.visibility = View.VISIBLE
         brandEditText2.visibility = View.VISIBLE
         licenseEditText2.visibility = View.VISIBLE
-        emtyBtn2.text = nameEditText2.text
+        emtyBtn2.text = licenseEditText2.text
         submitBtn2.visibility = View.VISIBLE
         deleteBtn2.visibility = View.VISIBLE
     }
@@ -151,7 +151,7 @@ class MainActivity : AppCompatActivity() {
         nameEditText3.visibility = View.VISIBLE
         brandEditText3.visibility = View.VISIBLE
         licenseEditText3.visibility = View.VISIBLE
-        emtyBtn3.text = nameEditText3.text
+        emtyBtn3.text = licenseEditText3.text
         submitBtn3.visibility = View.VISIBLE
         deleteBtn3.visibility = View.VISIBLE
     }

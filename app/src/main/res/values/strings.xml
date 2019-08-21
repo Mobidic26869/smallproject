@@ -16,4 +16,9 @@
     <string name="delete_button2">Delete</string>
     <string name="submit_button3">Submit</string>
     <string name="delete_button3">Delete</string>
+    <string name="name_textView1">Name</string>
+    <string name="brand_textView1">Brand</string>
+    <string name="license_textView1">License</string>
+    <string name="back_button1">Back</string>
+    <string name="delete_button4">Delete</string>
 </resources>
