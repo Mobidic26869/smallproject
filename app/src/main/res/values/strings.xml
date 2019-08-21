@@ -12,4 +12,8 @@
     <string name="what_is_your_license_plate">What is your License plate?</string>
     <string name="submit_button">Submit</string>
     <string name="delete_button">Delete</string>
+    <string name="submit_button2">Submit</string>
+    <string name="delete_button2">Delete</string>
+    <string name="submit_button3">Submit</string>
+    <string name="delete_button3">Delete</string>
 </resources>
