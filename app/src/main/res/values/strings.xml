@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">cars</string>
+    <string name="topic">Choose Me!</string>
+    <string name="button_emty1">Emty</string>
+    <string name="button_emty2">Emty</string>
+    <string name="button_emty3">Emty</string>
+    <string name="name_text">Name</string>
+    <string name="brand_text">Brand</string>
+    <string name="license_text">License</string>
+    <string name="what_is_your_name">What is your Name?</string>
+    <string name="what_is_you_brand_car">What is your Brand car?</string>
+    <string name="what_is_your_license_plate">What is your License plate?</string>
+    <string name="submit_button">Submit</string>
+    <string name="delete_button">Delete</string>
+</resources>
