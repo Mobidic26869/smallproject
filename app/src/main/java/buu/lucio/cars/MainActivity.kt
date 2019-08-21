@@ -40,9 +40,7 @@ class MainActivity : AppCompatActivity() {
         }
         findViewById<Button>(R.id.delete_button3).setOnClickListener{
             Delete3(it)
-
         }
-
     }
     private fun updateName(view: View){
         val nameEditText = findViewById<EditText>(R.id.name_edit)
@@ -63,7 +61,6 @@ class MainActivity : AppCompatActivity() {
         emtyBtn1.text = licenseEditText.text
         submitBtn.visibility = View.GONE
         deleteBtn.visibility = View.GONE
-
 
     }
     private fun updateName2(view: View){
@@ -118,6 +115,7 @@ class MainActivity : AppCompatActivity() {
         val emtyBtn2 = findViewById<Button>(R.id.emtytwo_button)
         val emtyBtn3 = findViewById<Button>(R.id.emtythree_button)
 
+
         emtyBtn2.visibility = View.GONE
         emtyBtn3.visibility = View.GONE
         nameEditText.visibility = View.VISIBLE
@@ -137,6 +135,7 @@ class MainActivity : AppCompatActivity() {
         val emtyBtn2 = findViewById<Button>(R.id.emtytwo_button)
         val emtyBtn1 = findViewById<Button>(R.id.emtyone_button)
         val emtyBtn3 = findViewById<Button>(R.id.emtythree_button)
+
 
         emtyBtn1.visibility = View.GONE
         emtyBtn3.visibility = View.GONE
