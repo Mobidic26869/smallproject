@@ -51,14 +51,18 @@ class MainActivity : AppCompatActivity() {
         val emtyBtn1 = findViewById<Button>(R.id.emtyone_button)
         val emtyBtn2 = findViewById<Button>(R.id.emtytwo_button)
         val emtyBtn3 = findViewById<Button>(R.id.emtythree_button)
+        val emty1 = findViewById<Button>(R.id.emty1_button)
 
+        emtyBtn1.visibility = View.VISIBLE
         emtyBtn2.visibility = View.VISIBLE
         emtyBtn3.visibility = View.VISIBLE
+        emty1.visibility = View.GONE
 
         nameEditText.visibility = View.GONE
         brandEditText.visibility = View.GONE
         licenseEditText.visibility = View.GONE
         emtyBtn1.text = licenseEditText.text
+        emty1.text = licenseEditText.text
         submitBtn.visibility = View.GONE
         deleteBtn.visibility = View.GONE
 
@@ -72,14 +76,18 @@ class MainActivity : AppCompatActivity() {
         val emtyBtn2 = findViewById<Button>(R.id.emtytwo_button)
         val emtyBtn1 = findViewById<Button>(R.id.emtyone_button)
         val emtyBtn3 = findViewById<Button>(R.id.emtythree_button)
+        val emty2 = findViewById<Button>(R.id.emty2_button)
 
         emtyBtn1.visibility = View.VISIBLE
+        emtyBtn2.visibility = View.VISIBLE
         emtyBtn3.visibility = View.VISIBLE
+        emty2.visibility = View.GONE
+
         nameEditText2.visibility = View.GONE
         brandEditText2.visibility = View.GONE
         licenseEditText2.visibility = View.GONE
         emtyBtn2.text = licenseEditText2.text
-
+        emty2.text = licenseEditText2.text
         submitBtn2.visibility = View.GONE
         deleteBtn2.visibility = View.GONE
     }
@@ -92,14 +100,18 @@ class MainActivity : AppCompatActivity() {
         val emtyBtn3 = findViewById<Button>(R.id.emtythree_button)
         val emtyBtn1 = findViewById<Button>(R.id.emtyone_button)
         val emtyBtn2 = findViewById<Button>(R.id.emtytwo_button)
+        val emty3 = findViewById<Button>(R.id.emty3_button)
+
 
         emtyBtn1.visibility = View.VISIBLE
         emtyBtn2.visibility = View.VISIBLE
+        emtyBtn3.visibility = View.VISIBLE
+        emty3.visibility = View.GONE
         nameEditText3.visibility = View.GONE
         brandEditText3.visibility = View.GONE
         licenseEditText3.visibility = View.GONE
         emtyBtn3.text = licenseEditText3.text
-
+        emty3.text = licenseEditText3.text
         submitBtn3.visibility = View.GONE
         deleteBtn3.visibility = View.GONE
     }
@@ -114,14 +126,18 @@ class MainActivity : AppCompatActivity() {
         val emtyBtn1 = findViewById<Button>(R.id.emtyone_button)
         val emtyBtn2 = findViewById<Button>(R.id.emtytwo_button)
         val emtyBtn3 = findViewById<Button>(R.id.emtythree_button)
+        val emty1 = findViewById<Button>(R.id.emty1_button)
 
-
+        emtyBtn1.visibility = View.GONE
         emtyBtn2.visibility = View.GONE
         emtyBtn3.visibility = View.GONE
+        emty1.visibility = View.VISIBLE
+
         nameEditText.visibility = View.VISIBLE
         brandEditText.visibility = View.VISIBLE
         licenseEditText.visibility = View.VISIBLE
         emtyBtn1.text = licenseEditText.text
+        emty1.text = licenseEditText.text
         submitBtn.visibility = View.VISIBLE
         deleteBtn.visibility = View.VISIBLE
 
@@ -135,15 +151,18 @@ class MainActivity : AppCompatActivity() {
         val emtyBtn2 = findViewById<Button>(R.id.emtytwo_button)
         val emtyBtn1 = findViewById<Button>(R.id.emtyone_button)
         val emtyBtn3 = findViewById<Button>(R.id.emtythree_button)
-
+        val emty2 = findViewById<Button>(R.id.emty2_button)
 
         emtyBtn1.visibility = View.GONE
+        emtyBtn2.visibility = View.GONE
         emtyBtn3.visibility = View.GONE
+        emty2.visibility = View.VISIBLE
 
         nameEditText2.visibility = View.VISIBLE
         brandEditText2.visibility = View.VISIBLE
         licenseEditText2.visibility = View.VISIBLE
         emtyBtn2.text = licenseEditText2.text
+        emty2.text = licenseEditText2.text
         submitBtn2.visibility = View.VISIBLE
         deleteBtn2.visibility = View.VISIBLE
     }
@@ -156,14 +175,18 @@ class MainActivity : AppCompatActivity() {
         val emtyBtn3 = findViewById<Button>(R.id.emtythree_button)
         val emtyBtn1 = findViewById<Button>(R.id.emtyone_button)
         val emtyBtn2 = findViewById<Button>(R.id.emtytwo_button)
+        val emty3 = findViewById<Button>(R.id.emty3_button)
 
         emtyBtn1.visibility = View.GONE
         emtyBtn2.visibility = View.GONE
+        emtyBtn3.visibility = View.GONE
+        emty3.visibility = View.VISIBLE
 
         nameEditText3.visibility = View.VISIBLE
         brandEditText3.visibility = View.VISIBLE
         licenseEditText3.visibility = View.VISIBLE
         emtyBtn3.text = licenseEditText3.text
+        emty3.text = licenseEditText3.text
         submitBtn3.visibility = View.VISIBLE
         deleteBtn3.visibility = View.VISIBLE
     }
@@ -179,6 +202,7 @@ class MainActivity : AppCompatActivity() {
         val emtyBtn1 = findViewById<Button>(R.id.emtyone_button)
         val emtyBtn2 = findViewById<Button>(R.id.emtytwo_button)
         val emtyBtn3 = findViewById<Button>(R.id.emtythree_button)
+        val emty1 = findViewById<Button>(R.id.emty1_button)
 
         delnameEditText.getText().clear()
         delbrandEditText.getText().clear()
@@ -191,9 +215,11 @@ class MainActivity : AppCompatActivity() {
         submitBtn.visibility = View.GONE
         deleteBtn.visibility = View.GONE
         emtyBtn1.text = "Emty"
+        emty1.text = "Emty"
         emtyBtn1.visibility = View.VISIBLE
         emtyBtn2.visibility = View.VISIBLE
         emtyBtn3.visibility = View.VISIBLE
+        emty1.visibility = View.GONE
     }
     private fun Delete2(view: View){
         val delnameEditText2 = findViewById<EditText>(R.id.name_edit2)
@@ -207,6 +233,7 @@ class MainActivity : AppCompatActivity() {
         val emtyBtn1 = findViewById<Button>(R.id.emtyone_button)
         val emtyBtn2 = findViewById<Button>(R.id.emtytwo_button)
         val emtyBtn3 = findViewById<Button>(R.id.emtythree_button)
+        val emty2 = findViewById<Button>(R.id.emty2_button)
 
         delnameEditText2.getText().clear()
         delbrandEditText2.getText().clear()
@@ -219,9 +246,11 @@ class MainActivity : AppCompatActivity() {
         submitBtn2.visibility = View.GONE
         deleteBtn2.visibility = View.GONE
         emtyBtn2.text = "Emty"
+        emty2.text = "Emty"
         emtyBtn1.visibility = View.VISIBLE
         emtyBtn2.visibility = View.VISIBLE
         emtyBtn3.visibility = View.VISIBLE
+        emty2.visibility = View.GONE
     }
     private fun Delete3(view: View){
         val delnameEditText3 = findViewById<EditText>(R.id.name_edit3)
@@ -235,6 +264,7 @@ class MainActivity : AppCompatActivity() {
         val emtyBtn1 = findViewById<Button>(R.id.emtyone_button)
         val emtyBtn2 = findViewById<Button>(R.id.emtytwo_button)
         val emtyBtn3 = findViewById<Button>(R.id.emtythree_button)
+        val emty3 = findViewById<Button>(R.id.emty3_button)
 
         delnameEditText3.getText().clear()
         delbrandEditText3.getText().clear()
@@ -247,9 +277,11 @@ class MainActivity : AppCompatActivity() {
         submitBtn3.visibility = View.GONE
         deleteBtn3.visibility = View.GONE
         emtyBtn3.text = "Emty"
+        emty3.text = "Emty"
         emtyBtn1.visibility = View.VISIBLE
         emtyBtn2.visibility = View.VISIBLE
         emtyBtn3.visibility = View.VISIBLE
+        emty3.visibility = View.GONE
     }
 
 

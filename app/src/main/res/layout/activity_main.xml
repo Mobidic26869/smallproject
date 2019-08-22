@@ -13,6 +13,7 @@
         android:layout_marginLeft="16dp"
         android:layout_marginTop="16dp"
         android:layout_marginRight="16dp"
+        android:background="@android:color/darker_gray"
         android:fontFamily="@font/roboto"
         android:text="@string/topic"
         android:textAlignment="center"
@@ -28,6 +29,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
+        android:fontFamily="@font/roboto"
         android:text="@string/button_emty1"
         android:textAlignment="center"
         android:visibility="visible"
@@ -41,6 +43,7 @@
         android:layout_marginStart="36dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="36dp"
+        android:fontFamily="@font/roboto"
         android:text="@string/button_emty2"
         android:visibility="visible"
         app:layout_constraintEnd_toStartOf="@+id/emtythree_button"
@@ -53,6 +56,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
+        android:fontFamily="@font/roboto"
         android:text="@string/button_emty3"
         android:visibility="visible"
         app:layout_constraintEnd_toEndOf="parent"
@@ -73,7 +77,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/emtyone_button" />
+        app:layout_constraintTop_toBottomOf="@+id/emty1_button" />
 
     <EditText
         android:id="@+id/brand_edit"
@@ -124,7 +128,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/emtytwo_button" />
+        app:layout_constraintTop_toBottomOf="@+id/emty2_button" />
 
     <EditText
         android:id="@+id/brand_edit2"
@@ -166,6 +170,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:layout_marginBottom="16dp"
+        android:fontFamily="@font/roboto"
         android:text="@string/submit_button"
         android:visibility="gone"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -181,6 +186,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="16dp"
+        android:fontFamily="@font/roboto"
         android:text="@string/delete_button"
         android:visibility="gone"
         app:layout_constraintBaseline_toBaselineOf="@+id/submit_button1"
@@ -196,6 +202,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:layout_marginBottom="16dp"
+        android:fontFamily="@font/roboto"
         android:text="@string/submit_button2"
         android:visibility="gone"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -211,6 +218,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="16dp"
+        android:fontFamily="@font/roboto"
         android:text="@string/delete_button2"
         android:visibility="gone"
         app:layout_constraintBaseline_toBaselineOf="@+id/submit_button2"
@@ -226,12 +234,14 @@
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
         android:ems="10"
+        android:fontFamily="@font/roboto"
         android:hint="@string/what_is_your_name"
         android:inputType="textPersonName"
         android:visibility="gone"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/emtythree_button" />
+        app:layout_constraintTop_toBottomOf="@+id/emty3_button" />
 
     <EditText
         android:id="@+id/brand_edit3"
@@ -241,6 +251,7 @@
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
         android:ems="10"
+        android:fontFamily="@font/roboto"
         android:hint="@string/what_is_you_brand_car"
         android:inputType="textPersonName"
         android:visibility="gone"
@@ -256,6 +267,7 @@
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
         android:ems="10"
+        android:fontFamily="@font/roboto"
         android:hint="@string/what_is_your_license_plate"
         android:inputType="textPersonName"
         android:visibility="gone"
@@ -271,6 +283,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:layout_marginBottom="16dp"
+        android:fontFamily="@font/roboto"
         android:text="@string/submit_button3"
         android:visibility="gone"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -286,11 +299,53 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="16dp"
+        android:fontFamily="@font/roboto"
         android:text="@string/delete_button3"
         android:visibility="gone"
         app:layout_constraintBaseline_toBaselineOf="@+id/submit_button3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/submit_button3" />
+
+    <Button
+        android:id="@+id/emty1_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:fontFamily="@font/roboto"
+        android:text="@string/button_emty1"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/topic_text" />
+
+    <Button
+        android:id="@+id/emty2_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:fontFamily="@font/roboto"
+        android:text="@string/button_emty2"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/topic_text" />
+
+    <Button
+        android:id="@+id/emty3_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:fontFamily="@font/roboto"
+        android:text="@string/button_emty3"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/topic_text" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
