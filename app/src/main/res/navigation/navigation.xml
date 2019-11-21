@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/loginFragment2">
+
+    <fragment
+        android:id="@+id/loginFragment2"
+        android:name="buu.lucio.cars.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_loginFragment2_self"
+            app:destination="@id/loginFragment2" />
+        <action
+            android:id="@+id/action_loginFragment2_to_titleFragment"
+            app:destination="@id/titleFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/titleFragment"
+        android:name="buu.lucio.cars.TitleFragment"
+        android:label="fragment_title"
+        tools:layout="@layout/fragment_title" >
+        <action
+            android:id="@+id/action_titleFragment_to_pageoneFragment"
+            app:destination="@id/pageoneFragment" />
+        <action
+            android:id="@+id/action_titleFragment_to_pagetwoFragment"
+            app:destination="@id/pagetwoFragment" />
+        <action
+            android:id="@+id/action_titleFragment_to_pagethreeFragment"
+            app:destination="@id/pagethreeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/pageoneFragment"
+        android:name="buu.lucio.cars.PageoneFragment"
+        android:label="fragment_pageone"
+        tools:layout="@layout/fragment_pageone" >
+        <action
+            android:id="@+id/action_pageoneFragment_to_titleFragment"
+            app:destination="@id/titleFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/pagetwoFragment"
+        android:name="buu.lucio.cars.PagetwoFragment"
+        android:label="fragment_pagetwo"
+        tools:layout="@layout/fragment_pagetwo" >
+        <action
+            android:id="@+id/action_pagetwoFragment_to_titleFragment"
+            app:destination="@id/titleFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/pagethreeFragment"
+        android:name="buu.lucio.cars.PagethreeFragment"
+        android:label="fragment_pagethree"
+        tools:layout="@layout/fragment_pagethree" >
+        <action
+            android:id="@+id/action_pagethreeFragment_to_titleFragment"
+            app:destination="@id/titleFragment" />
+    </fragment>
+</navigation>
